@@ -49,10 +49,9 @@ Please feel free to suggest other key resources by opening an issue report,
 submitting a pull request, or dropping me an email @ (yzhao010@usc.edu).
 Enjoy reading!
 
-BTW, you may find my `[GitHub] <https://github.com/yzhao062>`_ and
-`[outlier detection papers] <https://scholar.google.com/citations?user=zoGDYsoAAAAJ&hl=en>`_ useful,
-especially `PyOD library <https://github.com/yzhao062/pyod>`_, `ADBench benchmark <https://github.com/Minqi824/ADBench>`_,
-and `AD-LLM: benchmarking LLMs for AD <https://github.com/USC-FORTIS/AD-LLM>`_.
+BTW, you may find my `[GitHub] <https://github.com/yzhao062>`_, `[USC FORTIS Lab] <https://github.com/USC-FORTIS>`_, and
+`[Google Scholar] <https://scholar.google.com/citations?user=zoGDYsoAAAAJ&hl=en>`_ relevant,
+especially `PyOD library <https://github.com/yzhao062/pyod>`_, `ADBench benchmark <https://github.com/Minqi824/ADBench>`_, and `NLP-ADBench: NLP Anomaly Detection Benchmark  <https://github.com/USC-FORTIS/NLP-ADBench>`_,.
 
 ----
 
