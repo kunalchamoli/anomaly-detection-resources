@@ -602,13 +602,16 @@ AD-LLM: Benchmarking Large Language Models for Anomaly Detection                
 4.22. LLM and LLM Agents for Anomaly Detection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-==============================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
+==============================================================================================================  ============================  =====  ============================  =====================================================================================================================================================================================
 Paper Title                                                                                                     Venue                         Year   Ref                           Materials
-==============================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
+==============================================================================================================  ============================  =====  ============================  =====================================================================================================================================================================================
 AD-LLM: Benchmarking Large Language Models for Anomaly Detection                                                ACL 2025 Findings             2024   [#Yang2024ADLLM]_             `[PDF] <https://arxiv.org/abs/2412.11142>`_, `[Code] <https://github.com/USC-FORTIS/AD-LLM>`_
 NLP-ADBench: NLP Anomaly Detection Benchmark                                                                    EMNLP 2025 Findings           2024   [#Li2024NLPADBench]_          `[PDF] <https://arxiv.org/abs/2412.04784>`_, `[Code] <https://github.com/USC-FORTIS/NLP-ADBench>`_
 AD-AGENT: A Multi-agent Framework for End-to-end Anomaly Detection                                              Findings of IJCNLP-AACL       2025   [#Yang2025ADAGENT]_           `[PDF] <https://arxiv.org/abs/2505.12594>`_, `[Code] <https://github.com/USC-FORTIS/AD-AGENT>`_
-==============================================================================================================  ============================  =====  ============================  ==========================================================================================================================================================================
+LogSAD: Training-free Anomaly Detection with Vision & Language Foundation Models                                CVPR 2025                     2025   [#Zhang2025LogSAD]_           `[PDF] <https://arxiv.org/abs/2503.18325>`_, `[Code] <https://github.com/zhang0jhon/LogSAD>`_
+MMAD: A Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection            ICLR 2025                     2025   [#Jiang2025MMAD]_             `[PDF] <https://arxiv.org/abs/2410.09453>`_, `[Code] <https://github.com/jam-cc/MMAD>`_
+Delving into Large Language Models for Effective Time-Series Anomaly Detection                                  NeurIPS 2025                  2025   [#Park2025LLMTSAD]_           `[PDF] <https://openreview.net/pdf?id=6rpy7X1Of8>`_, `[Code] <https://github.com/junwoopark92/LLM-TSAD>`_
+==============================================================================================================  ============================  =====  ============================  =====================================================================================================================================================================================
 
 
 
@@ -748,6 +751,8 @@ References
 
 .. [#Jiang2023weakly] Jiang, M., Hou, C., Zheng, A., Hu, X., Han, S., Huang, H., He, X., Yu, P.S. and Zhao, Y., 2023. Weakly supervised anomaly detection: A survey. arXiv preprint arXiv:2302.04549.
 
+.. [#Jiang2025MMAD] Jiang, X., Li, J., Deng, H., Liu, Y., Gao, B., Zhou, Y., Li, J., Wang, C. and Zheng, F., 2025. MMAD: A Comprehensive Benchmark for Multimodal Large Language Models in Industrial Anomaly Detection. In *ICLR 2025*.
+
 .. [#Lai2021Revisiting] Lai, K.H., Zha, D., Xu, J., Zhao, Y., Wang, G. and Hu, X., 2021. Revisiting Time Series Outlier Detection: Definitions and Benchmarks. *NeurIPS*, Datasets and Benchmarks Track.
 
 .. [#Lamba2019Learning] Lamba, H. and Akoglu, L., 2019, May. Learning On-the-Job to Re-rank Anomalies from Top-1 Feedback. In *Proceedings of the 2019 SIAM International Conference on Data Mining (SDM)*, pp. 612-620. Society for Industrial and Applied Mathematics.
@@ -767,10 +772,6 @@ References
 .. [#Li2023QCAD] Li, Z. and Van Leeuwen, M., 2023. Explainable contextual anomaly detection using quantile regression forests. *Data Mining and Knowledge Discovery*, 37(6), pp.2517-2563.
 
 .. [#Li2024NLPADBench] Li, Y., Li, J., Xiao, Z., Yang, T., Nian, Y., Hu, X. and Zhao, Y. "NLP-ADBench: NLP Anomaly Detection Benchmark," arXiv preprint arXiv:2412.04784.
-
-.. [#Yang2024ADLLM] Yang, T., Nian, Y., Li, S., Xu, R., Li, Y., Li, J., Xiao, Z., Hu, X., Rossi, R., Ding, K., Hu, X. and Zhao, Y. "AD-LLM: Benchmarking Large Language Models for Anomaly Detection." Findings of ACL, 2025.
-
-.. [#Yang2025ADAGENT] Yang, T., Liu, J., Siu, W., Wang, J., Qian, Z., Song, C., Cheng, C., Hu, X., and Zhao, Y. "AD-AGENT: A Multi-agent Framework for End-to-end Anomaly Detection." Findings of IJCNLP-AACL, 2025.
 
 .. [#Liu2008Isolation] Liu, F.T., Ting, K.M. and Zhou, Z.H., 2008, December. Isolation forest. In *International Conference on Data Mining*\ , pp. 413-422. IEEE.
 
@@ -811,6 +812,8 @@ References
 .. [#Pang2021Toward] Pang, G. and Aggarwal, C., 2021, August. Toward explainable deep anomaly detection. In *KDD* (pp. 4056-4057).
 
 .. [#Pang2023recent] Guansong Pang, Joey Tianyi Zhou, Radu Tudor Ionescu, Yu Tian, and Kihyuk Sohn. "Recent Advances in Anomaly Detection". In: *CVPR'23*. Vancouver, Canada.
+
+.. [#Park2025LLMTSAD] Park, J., Jung, K., Lee, D., Lee, H., Gwak, D., Park, C., Choo, J. and Cho, J., 2025. Delving into Large Language Models for Effective Time-Series Anomaly Detection. In *NeurIPS 2025*.
 
 .. [#Pelleg2005Active] Pelleg, D. and Moore, A.W., 2005. Active learning for anomaly and rare-category detection. In *Advances in neural information processing systems*\, pp. 1073-1080.
 
@@ -866,6 +869,10 @@ References
 
 .. [#Xu2024LLMsurvey] Xu, R. and Ding, K., 2024. Large language models for anomaly and out-of-distribution detection: A survey. arXiv preprint arXiv:2409.01980.
 
+.. [#Yang2024ADLLM] Yang, T., Nian, Y., Li, S., Xu, R., Li, Y., Li, J., Xiao, Z., Hu, X., Rossi, R., Ding, K., Hu, X. and Zhao, Y. "AD-LLM: Benchmarking Large Language Models for Anomaly Detection." Findings of ACL, 2025.
+
+.. [#Yang2025ADAGENT] Yang, T., Liu, J., Siu, W., Wang, J., Qian, Z., Song, C., Cheng, C., Hu, X., and Zhao, Y. "AD-AGENT: A Multi-agent Framework for End-to-end Anomaly Detection." Findings of IJCNLP-AACL, 2025.
+
 .. [#Yoon2019NETS] Yoon, S., Lee, J. G., & Lee, B. S., 2019. NETS: extremely fast outlier detection from a data stream via set-based processing. Proceedings of the VLDB Endowment, 12(11), 1303-1315.
 
 .. [#Yoon2020STARE] Yoon, S., Lee, J. G., & Lee, B. S., 2020. Ultrafast local outlier detection from a data stream with stationary region skipping. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 1181-1191)
@@ -893,6 +900,8 @@ References
 .. [#Zhao2021SUOD] Zhao, Y., Hu, X., Cheng, C., Wang, C., Wan, C., Wang, W., Yang, J., Bai, H., Li, Z., Xiao, C. and Wang, Y., 2021. SUOD: Accelerating Large-scale Unsupervised Heterogeneous Outlier Detection. *Proceedings of Machine Learning and Systems (MLSys)*.
 
 .. [#Zhao2021TOD] Zhao, Y., Chen, G.H. and Jia, Z., 2021. TOD: Tensor-based Outlier Detection. arXiv preprint arXiv:2110.14007.
+
+.. [#Zhang2025LogSAD] Zhang, J., Wang, G., Jin, Y. and Huang, D., 2025. Towards Training-free Anomaly Detection with Vision and Language Foundation Models. In *CVPR 2025*.
 
 .. [#Zhou2019AnomalyNet] Zhou, J.T., Du, J., Zhu, H., Peng, X., Liu, Y. and Goh, R.S.M., 2019. AnomalyNet: An anomaly detection network for video surveillance. *IEEE Transactions on Information Forensics and Security*.
 
